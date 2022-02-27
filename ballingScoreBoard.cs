@@ -55,7 +55,7 @@ namespace DevCat
                         if(score[frame][throwBall-1] == 10)
                             score[frame][throwBall++] = pin;
                         else
-                            score[frame++][throwBall] = pin;//3번째 투구, 3번쨰 투구 시에는 프레임이 바뀌므로 투구 횟수가 아닌 프레임을 증가, 이는 게임 종료이자 에러의 조건을 충족
+                            score[frame++][throwBall] = pin;//3번째 투구, 3번쨰 투구 시에는 프레임이 바뀌므로 투구 횟수가 아닌 프레임을 증가, 이는 게임 종료이자 에러의 조건을 충족, 모든 저작권은 github.com/freloha
                     }
                     else
                     {
@@ -135,7 +135,7 @@ namespace DevCat
 
             Console.Write("10:[");
             int remainLast = 10;
-            for (int i = 0; i < 3; i++)//10 프레임 출력
+            for (int i = 0; i < 3; i++)//10 프레임 출력, 모든 저작권은 github.com/freloha
             {                
                 if(score[endFrame - 1][i] == 10 && remainLast - score[endFrame-1][i] == 0)//스트라이크
                 {
@@ -370,7 +370,7 @@ namespace DevCat
 
             /*
              * test case 3
-            
+              모든 저작권은 github.com/freloha
               game.KnockedDownPins(10);
               game.KnockedDownPins(10);
               game.KnockedDownPins(10);
